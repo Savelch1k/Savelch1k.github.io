@@ -3,24 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Новогодняя 3D ёлка</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Rock-Paper-Scissors RPG Edition</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <header>
-        <p>С новым 2026 годом!</p>
-    </header>
+    <div class="main">
+        <div id="enemyInfo">
 
-    <main>
-        <div id="tree-container"></div>
-    </main>
+        </div>
+        <div id="mainMenu">
 
-    <footer>
-        <p>От Амельяненко Савелия</p>
-        <p></p>
-    </footer>
+        </div>
+        <div id="playerInfo">
+
+        </div>
+    </div>
+
 </body>
 </html>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r79/three.min.js"></script>
-<script src="tree.js"></script>
+<script src="index.js"></script>
