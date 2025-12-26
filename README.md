@@ -1,2 +1,26 @@
-# Savelch1k.github.io
-Новогодняя 3D ёлка
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новогодняя 3D ёлка</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <p>С новым 2026 годом!</p>
+    </header>
+
+    <main>
+        <div id="tree-container"></div>
+    </main>
+
+    <footer>
+        <p>От Амельяненко Савелия</p>
+        <p></p>
+    </footer>
+</body>
+</html>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r79/three.min.js"></script>
+<script src="tree.js"></script>
