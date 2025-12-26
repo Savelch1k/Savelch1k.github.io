@@ -17,8 +17,8 @@
 
         </div>
     </div>
-
+    <script src="index.js"></script>
 </body>
 </html>
 
-<script src="index.js"></script>
+
