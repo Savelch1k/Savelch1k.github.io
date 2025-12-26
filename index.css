@@ -4,6 +4,7 @@
 }
 
 body{
+    decoration: none;
     background-color: #3e6c47;
 }
 
@@ -88,4 +89,5 @@ button{
     text-align: right;
     margin-top: 30%;
     margin-right: 50%;
+
 }
