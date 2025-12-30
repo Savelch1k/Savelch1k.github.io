@@ -1,0 +1,91 @@
+@font-face {
+    font-family: Rubik;
+    src: url(fonts/Rubik-VariableFont_wght.ttf);
+}
+
+body{
+    background-color: #3e6c47;
+}
+
+h1{
+    font-family: 'Rubik';
+    text-shadow: -1px -1px 1px #0d481b, 1px 1px 1px #0d481b, -1px 1px 1px #0d481b, -1px 1px 1px #0d481b, 1px -1px 1px #0d481b;
+    color: #dcffe2;
+}
+
+h2 {
+    font-family: 'Rubik';
+    text-shadow: -1px -1px 1px #0d481b, 1px 1px 1px #0d481b, -1px 1px 1px #0d481b, -1px 1px 1px #0d481b, 1px -1px 1px #0d481b;
+    color: #dcffe2;
+}
+
+h3{
+    font-family: 'Rubik';
+    text-shadow: -1px -1px 1px #0d481b, 1px 1px 1px #0d481b, -1px 1px 1px #0d481b, -1px 1px 1px #0d481b, 1px -1px 1px #0d481b;
+    color: #dcffe2;
+}
+
+h4{
+    font-family: 'Rubik';
+    text-shadow: -1px -1px 1px #0d481b, 1px 1px 1px #0d481b, -1px 1px 1px #0d481b, -1px 1px 1px #0d481b, 1px -1px 1px #0d481b;
+    color: #dcffe2;
+    /* -webkit-text-stroke: 1px #34a04d; */
+    
+}
+
+h5{
+    font-family: 'Rubik';
+    text-shadow: -1px -1px 1px #0d481b, 1px 1px 1px #0d481b, -1px 1px 1px #0d481b, -1px 1px 1px #0d481b, 1px -1px 1px #0d481b;
+    color: #dcffe2;
+}
+
+h6{
+    font-family: 'Rubik';
+    text-shadow: -1px -1px 1px #0d481b, 1px 1px 1px #0d481b, -1px 1px 1px #0d481b, -1px 1px 1px #0d481b, 1px -1px 1px #0d481b;
+    color: #dcffe2;
+}
+
+button{
+    font-family: 'Rubik';
+    text-decoration-color: aqua;
+    padding-left: 2%;
+    padding-right: 2%;
+    border: 3px solid #34a04d;
+    border-radius: 5em;
+    background-color: #7aff93;
+    /* #c8ff7a */
+}
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+#enemyInfo{
+    grid-area: 1 / 1 / 2 / 2;
+    display: inline;
+    vertical-align: middle;
+    text-align: left;
+    margin-top: 30%;
+    margin-left: 50%;
+}
+
+#mainMenu{
+    grid-area: 1 / 2 / 2 / 3;
+    display: inline;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 30%;
+}
+
+#playerInfo{
+    grid-area: 1 / 3 / 2 / 4;
+    display: inline;
+    vertical-align: middle;
+    text-align: right;
+    margin-top: 30%;
+    margin-right: 50%;
+}
