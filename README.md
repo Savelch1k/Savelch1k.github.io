@@ -1,23 +1,26 @@
+<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <title>Новогодняя 3D ёлка</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="main">
-        <div id="enemyInfo">
+    <header>
+        <p>С новым 2026 годом!</p>
+    </header>
 
-        </div>
-        <div id="mainMenu">
+    <main>
+        <div id="tree-container"></div>
+    </main>
 
-        </div>
-        <div id="playerInfo">
-
-        </div>
-    </div>
-    <script src="index.js"></script>
+    <footer>
+        <p>От Амельяненко Савелия</p>
+        <p></p>
+    </footer>
 </body>
 </html>
 
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r79/three.min.js"></script>
+<script src="tree.js"></script>
